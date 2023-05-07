@@ -1,5 +1,5 @@
-#!/usr/bin/python  # -*- coding: latin-1 -*-
-print("5. ENCODE\n" + "*" * 86)
+# !/usr/bin/python  # -*- coding: latin-1 -*-
+print("5. ENCODE\n" + "*" * 83)
 print(
     """1. Encode the given string using the specified encoder
 2. If no encoding is specified, UTF-8 will be used
@@ -7,11 +7,11 @@ print(
 3. Returns new string, doesn't change the original string"""
 )
 
-print("*" * 86)
+print("*" * 83)
 print("""SYNTAX => String.encode(encoding ,errors='strict')""")
-print("*" * 86)
+print("*" * 83)
 
-txt = "Båsic Python"
+txt = "Bï¿½sic Python"
 # if no encoding char found, error='strict' will throw error
 strict = txt.encode(encoding="UTF-8", errors="strict")
 backslashreplace = txt.encode(encoding="ascii", errors="backslashreplace")
@@ -27,5 +27,5 @@ print("ASCII, namereplace \t=>", namereplace)
 print("ASCII, xmlcharrefreplace =>", xml)
 
 
-print("*" * 86 + "\n\n****** BUILT IN DOC ******")
+print("*" * 83 + "\n\n****** BUILT IN DOC ******")
 help(str.encode)

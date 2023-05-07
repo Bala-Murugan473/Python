@@ -1,18 +1,19 @@
-print("4. COUNT\n" + "*" * 86)
+print("4. COUNT\n" + "*" * 83)
 print(
-    """1. Return the number of non-overlapping occurrences of substring subs in a string
-2. Counts the number of occurences of sub string present in the given string
+    """1. Return number of non-overlapping occurrences of substring subs in a \
+string
+2. Counts the number of occurrences of sub string present in the given string
 3. Can also check with slicing the string as well
 4. Case sensitive
 5. Returns Integer"""
 )
 
-print("*" * 86)
+print("*" * 83)
 print(
     """SYNTAX => String.count(substring,start_index,end_index)
 start_index and end_index are optional"""
 )
-print("*" * 86)
+print("*" * 83)
 
 word = "ab_ab_abc_ab_a=abcd"
 
@@ -29,5 +30,5 @@ print("count of 'ab_' in given string =>", c3)
 print("count of 'abcd' in given string =>", c4)
 print("count of 'ab' in given string(slice) =>", c5)
 
-print("*" * 86 + "\n\n****** BUILT IN DOC ******")
+print("*" * 83 + "\n\n****** BUILT IN DOC ******")
 help(str.count)

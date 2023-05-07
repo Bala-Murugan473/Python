@@ -1,17 +1,18 @@
-print("3. CENTER\n" + "*" * 86)
+print("3. CENTER\n" + "*" * 83)
 
 print(
     """1. Can be used to get a centralized string with given length
-2. Padding is done using the specified fill character(Default fiiling character is space)
-3. Returns a new centered string of length width, doesn't change the original string"""
+2. Padding is done using the specified fill character
+3. Default filling character is space
+4. Returns a new centered string of length width"""
 )
-print("*" * 86)
+print("*" * 83)
 print("""SYNTAX => String.center(width : int, fillchar=' ')""")
-print("*" * 86)
+print("*" * 83)
 
 name = "Python"
 print("Center of size 20 with default char :", name.center(20))
 print('Center of size 20 with given"^"char :', name.center(20, "^"))
 
-print("*" * 86 + "\n\n****** BUILT IN DOC ******")
+print("*" * 83 + "\n\n****** BUILT IN DOC ******")
 help(str.center)
